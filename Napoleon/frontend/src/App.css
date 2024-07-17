@@ -1,0 +1,14 @@
+:root {
+  .light {
+    --main-color: #ff891a;
+    --text-color: #000000;
+    --description-color: #000000;
+    --secondry-color: #838383;
+  }
+  .dark {
+    --main-color: #0a0a0aea;
+    --text-color: #ffffff;
+    --description-color: #ffffff;
+    --secondry-color: #ffffff;
+  }
+}

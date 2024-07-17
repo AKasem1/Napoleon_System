@@ -1,0 +1,150 @@
+.add-groups-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  background-color: var(--main-color) !important;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -20px;
+}
+
+/* Left section styling */
+.left-section {
+  flex: 2;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  height: 70vh;
+}
+
+/* Right section styling */
+.right-section {
+  flex: 1;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+/* Header styling */
+.group-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Table styling */
+.groups-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #669bbc;
+}
+
+.table-header,
+.table-cell {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: rgb(58, 58, 58);
+}
+
+.table-header {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.table-row:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Form styling */
+.right-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: var(--description-color) !important;
+}
+
+.right-section form input,
+.right-section form select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.right-section form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff891a;
+  color: white !important;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.right-section form button:hover {
+  background-color: #4a8a99;
+}
+.group-header2{
+color: #000000;
+font-size: 30px !important;
+padding: 20px !important;
+}
+/* Responsive design */
+
+@media screen and (max-width: 430px) {
+  .add-groups-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 550px;
+    background-color: var(--main-color) !important;
+    background-size: cover;
+    height: 1000px;
+    margin-left: -20px;
+  }
+  .left-section {
+    background: #ffffff;
+    border-radius: 50px;
+    width: 100%;
+    margin-top: 150px;
+  }
+  .table-cell {
+    padding: 9px 5px;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .right-section {
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom:-650px;
+    flex-wrap:nowrap ;
+  }
+  .group-header {
+    margin-top: -90px;
+  }
+  .groups-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d4af37;
+  }
+  .form2{
+    margin-top: 60px;
+  }
+  .group-header2{
+    margin-top: 250px;
+  }
+}

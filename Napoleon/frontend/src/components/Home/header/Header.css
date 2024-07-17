@@ -1,0 +1,124 @@
+.navbar {
+  width: 100%;
+  z-index: 1000 !important;
+  background-color: #003049;
+  border-bottom:  2px solid #ffffff !important;
+}
+
+
+.napleon {
+  margin-left: 30px;
+  height: 2em;
+  width: 6em;
+  background: transparent;
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #fdf0d5;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+.dark-mode{
+  margin-top: 10px;
+}
+
+.napleon:hover {
+  background: #669bbc;
+  color: #000000;
+  animation: squeeze3124 0.9s both;
+
+}
+@keyframes squeeze3124 {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.logo {
+  margin-top: -7px;
+  width: 100px;
+  height: 40px;
+}
+
+.register-header {
+  transition: 0.56s !important;
+  
+}
+.register-header:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.link{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s !important;
+
+}
+.link:hover {
+  color: #ffffff;
+  transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 430px) {
+  .navbarScroll {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    background-color: #016dd9 !important;
+
+   
+  }
+  .register {
+        margin-right: 1px;
+    transition: 0.56s;
+    /* background-color: #016dd9; */
+  }
+  .nav{
+   display: flex;
+   justify-content: space-around; 
+   flex-direction: row-reverse;
+  }
+  .dark-mode{
+margin: auto;  }
+}
+.navbar-toggler-icon{
+  color: white !important;
+}

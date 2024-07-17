@@ -1,0 +1,87 @@
+/* GeneratePdf.css */
+
+.pdf-popup-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pdf-popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .pdf-content {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .student-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .student-info {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .student-info p {
+    margin: 5px 0;
+  }
+  
+  .exams-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .exams-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .exams-table th, .exams-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .exams-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .pdf-download-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .pdf-download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .pdf-download-btn:focus {
+    outline: none;
+  }
+  

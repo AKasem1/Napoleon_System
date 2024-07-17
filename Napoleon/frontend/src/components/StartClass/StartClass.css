@@ -1,0 +1,140 @@
+.bg-color3 {
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+.class-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #003049;
+  color: var(--description-color);
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  margin-left: 20px; /* Add margin to separate from the filter/table */
+  right: 0;
+}
+
+.class-form .title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #007bff; /* Match title color from Center.css */
+}
+
+.class-form .select-class {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px; /* Add margin to create space between select elements */
+}
+
+.class-form .submit {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0066da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  border-radius: 20px;
+}
+
+.class-form .submit:hover {
+  background: #0056b3;
+}
+
+.search-contanier {
+  background-color: var(--main-color) !important;
+  width: 70%;
+}
+
+.right-section3 {
+  flex: 1;
+  background-color: var(--main-color) !important;
+  width: 30%;
+}
+
+.search10 {
+  margin-top: 50px;
+}
+
+.red-button {
+  transition: 0.5s;
+}
+
+.red-button:hover {
+  transform: scale(1.09);
+}
+
+.search-result {
+  color: #a97d02; /* Golden brown text */
+  border: 1px solid rgb(0, 18, 39); /* Dark blue border */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.search-result table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #669bbc; /* Background color similar to .center-table */
+}
+
+.search-result th,
+.search-result td {
+  padding: 12px;
+  border: 1px solid #ddd; /* Light gray border similar to .center-table */
+  text-align: center;
+  color: rgb(58, 58, 58); /* Text color similar to .center-table */
+}
+
+.search-result th {
+  background-color: #003049; /* White background for headers */
+  color: white; /* Dark blue text for headers similar to .center-table */
+}
+
+.search-result tr:nth-child(even) {
+  background-color: #ffffff; /* White background for even rows */
+}
+
+.search-result tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Light gray background for odd rows */
+}
+
+.search-result tr:hover {
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Hover background similar to .center-table */
+  color: rgb(58, 58, 58); /* Text color on hover */
+}
+
+.start-class {
+  position: relative;
+  margin-bottom: 50px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 150px;
+}

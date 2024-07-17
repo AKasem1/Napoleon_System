@@ -1,0 +1,56 @@
+/* Center.css */
+.bg-color2 {
+    background-color: var(--main-color) !important;
+  }
+  .app-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-color);
+    color: white;
+  }
+  .add-section2 {
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  .add-expenses {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.center-section {
+    width: 70%;
+    padding: 20px;
+  }
+  .center-info {
+    margin-top: 20px;
+  }
+  
+  .center-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #669bbc;
+  }
+  
+  .center-table th,
+  .center-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: rgb(58, 58, 58);
+  }
+  
+  .center-table th {
+    background-color: rgb(255, 255, 255);
+    color: #003049;
+  }
+  
+  .center-table tr:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
